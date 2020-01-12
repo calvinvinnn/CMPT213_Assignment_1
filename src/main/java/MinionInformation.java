@@ -25,6 +25,10 @@ public class MinionInformation {
         NumOfEvilDeeds = numOfEvilDeeds;
     }
 
+    public void incrementEvilDeeds(){
+        setNumOfEvilDeeds(getNumOfEvilDeeds()+1);
+    }
+
 
     @Override
     public String toString() {
