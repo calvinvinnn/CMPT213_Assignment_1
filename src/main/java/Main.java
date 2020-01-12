@@ -9,9 +9,7 @@ public class Main {
     public static void main(String[] args){
         System.out.println("Welcome to the Evil Minion Tracker");
         System.out.println("by Christofer Calvin Kurniawan");
-
         menu.printMenu();
-
         String st = "-1";
         while(st.compareTo("0") != 0) {
             Scanner input = new Scanner(System.in);
