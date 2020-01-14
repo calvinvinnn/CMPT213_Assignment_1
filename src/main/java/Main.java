@@ -12,8 +12,7 @@ public class Main {
     static String st = "-1";
 
     public static void main(String[] args) {
-        System.out.println("Welcome to the Evil Minion Tracker");
-        System.out.println("by Christofer Calvin Kurniawan");
+        menu.printWelcome();
 
         while (true) {
             menu.printMenu();
