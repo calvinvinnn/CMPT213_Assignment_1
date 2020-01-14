@@ -75,7 +75,9 @@ public class Main {
                     actionIsDone();
                     break;
                 case "5":
-                    System.out.println(minion.toString());
+                    for (int i = 1; i <= minion.size(); i++){
+                        System.out.println(i + ". " + minion.get(i-1).toString());
+                    }
                     actionIsDone();
                     break;
                 case "6":
