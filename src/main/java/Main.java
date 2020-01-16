@@ -4,6 +4,13 @@ import java.util.Scanner;
 import static java.lang.System.exit;
 import static java.lang.System.setOut;
 
+/**
+ *  Consist of the main program of the Minion Tracker Program supported by menu and minion information class
+ *  Contain the minion objects in an array list
+ *  Contain the code of the user options
+ *  Contain the user input
+ */
+
 public class Main {
     static ArrayList<MinionInformation> minion = new ArrayList<MinionInformation>();
     static Menu menu = new Menu();

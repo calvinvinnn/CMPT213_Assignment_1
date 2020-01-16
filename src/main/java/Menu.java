@@ -1,3 +1,7 @@
+/**
+ * Prints the options for the user to choose and also consist of title and welcome of the main menu
+ */
+
 public class Menu {
     private static String MenuTitle = "* Main Menu *";
     private static String[] MenuOptions = {"List Minions",

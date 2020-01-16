@@ -1,3 +1,6 @@
+/**
+ * Consist of the fields of each minion objects with a construction, getters, and a setter
+ */
 public class MinionInformation {
     private String name;
     private double height;
